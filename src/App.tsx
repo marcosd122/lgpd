@@ -5,6 +5,7 @@ import AboutPage from './pages/AboutPage';
 import ResourcesPage from './pages/ResourcesPage';
 import ContactPage from './pages/ContactPage';
 import NewsPage from './pages/NewsPage';
+import LGPDQuickPage from './pages/LGPDQuickPage';
 import Layout from './components/Layout';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/resources" element={<ResourcesPage />} />
           <Route path="/news" element={<NewsPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/lgpd-2-minutes" element={<LGPDQuickPage />} />
         </Routes>
       </Layout>
     </Router>
