@@ -7,21 +7,21 @@ const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-brand-green-800 text-white">
+    <footer className="bg-neutral-500 text-white">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
           <div className="col-span-1">
             <Link to="/" className="flex items-center mb-4">
               <img 
                 src="https://www.ms.gov.br/wp-content/uploads/2023/01/LOGO-GOV-MATO-GROSSO-SUL-br.png" 
-                alt="Governo MS Logo"
+                alt="----"
                 className="h-16 w-auto" 
               />
             </Link>
             <div className="text-neutral-200 mt-4">
               <p className="text-xl font-semibold">LGPD</p>
               <p className="text-sm">Lei Geral de Proteção de Dados</p>
-              <p className="text-sm mt-4">Mato Grosso do Sul</p>
+              <p className="text-sm mt-4">Controladoria Geral do Estado de Rondônia </p>
             </div>
           </div>
 
@@ -92,16 +92,16 @@ const Footer: React.FC = () => {
               <li className="flex items-start">
                 <MapPin className="mr-2 w-5 h-5 mt-0.5 text-brand-green-300" />
                 <span className="text-neutral-200">
-                  Av. Desembargador José Nunes da Cunha, Bloco I, CEP 79031-310, Campo Grande - MS
+                  Av. José Nunes da Cunha, Bloco I, CEP 79031-310, Porto Velho - RO
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone className="mr-2 w-5 h-5 text-brand-green-300" />
-                <span className="text-neutral-200">(67) 3318-1000</span>
+                <span className="text-neutral-200">(69) 3318-1000</span>
               </li>
               <li className="flex items-center">
                 <Mail className="mr-2 w-5 h-5 text-brand-green-300" />
-                <span className="text-neutral-200">lgpd@ms.gov.br</span>
+                <span className="text-neutral-200">lgpd@cge.gov.br</span>
               </li>
             </ul>
           </div>
@@ -111,7 +111,7 @@ const Footer: React.FC = () => {
           <div className="flex items-center mb-4 md:mb-0">
             <BrazilFlag className="w-5 h-5 mr-2" />
             <span className="text-sm text-neutral-200">
-              © {currentYear} Governo do Estado de Mato Grosso do Sul. Todos os direitos reservados.
+              © {currentYear} Diretoria de Transparência e Governo Aberto - DTGA. Todos os direitos reservados.
             </span>
           </div>
           <div>

@@ -7,7 +7,7 @@ const HomePage: React.FC = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-brand-green-700 to-brand-green-800 text-white py-20">
+      <section className="relative bg-gradient-to-r from-brand-yellow-700 to-brand-blue-800 text-white py-20">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-0 left-0 right-0 h-full bg-[url('https://images.pexels.com/photos/3762927/pexels-photo-3762927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] bg-cover bg-center opacity-10"></div>
         </div>
